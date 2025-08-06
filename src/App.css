@@ -1,5 +1,12 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
+.app-layout {
+  display: flex;
+  flex-direction: column;
 }
+
+.app-content {
+  display: flex;
+  flex: 1;
+}
+
+
 

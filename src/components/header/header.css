@@ -1,0 +1,13 @@
+.header{
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.heading {
+    text-decoration: none;
+    color: inherit;
+}
