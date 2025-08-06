@@ -1,15 +1,21 @@
 import './App.css';
-import { useState } from 'react';
-import React from 'react';
+import Header from './components/header/Header.tsx';
+import MainContent from './components/mainContent/MainContent.tsx';
+import Sidebar from './components/sidebar/Sidebar.tsx';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
 
-  const [counter, setCounter] = useState(0)
-
   return (
-    <div className="App">
-      <div>Welcome to React Learning Tutorial</div>
-    </div>
+    <BrowserRouter>
+      <div className="app-layout">
+        <Header />
+        <div className="app-content">
+          <Sidebar />
+          <MainContent />
+        </div>
+      </div>
+    </BrowserRouter >
   );
 }
 
